@@ -1,0 +1,19 @@
+.NavBar {
+    margin: 0;
+    height: 4rem;
+    display: flex;
+
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.NavBar a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.NavBar a:hover {
+    color: red;
+}
