@@ -8,7 +8,7 @@ export default function About() {
 
         <h2>Projeto Desenvolvido utilizando Next com a api do <a href="https://pokeapi.co/" target="_blank" rel="noreferrer">PokéApi</a></h2>        
 
-        <h2>Repositorio do projeto no meu <a href="https://pokeapi.co/" target="_blank" rel="noreferrer">GitHub</a></h2>
+        <h2>Repositorio do projeto no meu <a href="https://github.com/Manoel-iranilson/Pokedex-Next" target="_blank" rel="noreferrer">GitHub</a></h2>
         
         <Image src="/images/Pokemon.svg" height="400" width="500" alt="logo"/>
 
