@@ -2,18 +2,42 @@
     margin: 0;
     height: 4rem;
     display: flex;
-
+    justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #333;
     color: aliceblue;
+    margin-bottom: 2em;
+    padding: 2rem;
 }
 
-.NavBar a {
-    margin-right: 1.5rem;
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo h1 {
+    margin-left: 1rem;
+}
+
+.link_items {
+    display: flex;
+    list-style: none;
+}
+
+.link_items li {
+    margin-right: 1.3rem;
+}
+
+.link_items a {
+    color: aliceblue;
     text-decoration: none;
-    transition: 0.3s;
+    padding: 5px;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
 }
 
-.NavBar a:hover {
-    color: red;
+.link_items a:hover {
+    border-color: #fff;
 }
